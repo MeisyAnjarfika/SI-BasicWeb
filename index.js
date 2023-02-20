@@ -11,7 +11,7 @@ function getPosts(){
                 output += `
                 <div class="card-item">
                     <h3>${post.name}</h3>
-                    <img src="${post.img}"
+                    <img src="${post.img}" class="img-item"/>
                     <h3>${post.level}</h3>
                 </div>
                 `;
